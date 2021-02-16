@@ -1,6 +1,5 @@
 import keras as kr
 import numpy as np
-from matplotlib import pyplot
 
 
 # helper functions
@@ -123,7 +122,6 @@ def define_discriminator(image_shape):
     :param image_shape: Any image shape
     :return: Keras discriminator model
     """
-
 
     # initialization
     init = kr.initializers.RandomNormal(stddev=0.02)
